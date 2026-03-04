@@ -1,0 +1,6 @@
+,Best Params,AUC Mean,AUC Std,F1 Mean,Recall Mean
+RandomForest,"{'class_weight': 'balanced', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}",0.9986039085002787,0.0013299456625465167,0.8645162616168853,0.7636737089201878
+XGBoost,"{'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 500, 'subsample': 1.0}",0.9976907458242623,0.0018089601443797283,0.9271349936188781,0.8720070422535212
+KNN,"{'model__n_neighbors': 3, 'model__p': 1, 'model__weights': 'distance'}",0.9950162085250256,0.007595248830929223,0.9391169458303088,0.9253912363067291
+SVM (RBF),"{'model__C': 10, 'model__class_weight': 'balanced', 'model__gamma': 0.1}",0.9911929411949452,0.004225395305279991,0.9206641320733482,0.9507824726134585
+LogisticRegression,"{'model__C': 0.1, 'model__class_weight': None, 'model__penalty': 'l2', 'model__solver': 'lbfgs'}",0.7738698368585005,0.030395966920021136,0.270571339601949,0.16737089201877936
